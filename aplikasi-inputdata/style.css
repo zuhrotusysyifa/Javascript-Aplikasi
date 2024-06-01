@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+.container {
+    width: 850px;
+    margin: 50px auto;
+}
+
+.form-box {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table thead th {
+    background-color: burlywood;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table tbody td {
+    border: 1px solid black;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: beige;
+}
+
+.table-striped tbody tr:hover {
+    background-color: beige;
+}
